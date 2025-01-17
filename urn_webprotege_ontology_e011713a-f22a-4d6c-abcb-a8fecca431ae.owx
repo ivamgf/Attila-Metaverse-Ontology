@@ -72,6 +72,9 @@
         <Class IRI="http://webprotege.stanford.edu/R938Yj4nO2rBxZsItdONyVy"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://webprotege.stanford.edu/R9A11RmuVruAOerXKyySiWr"/>
     </Declaration>
     <Declaration>
@@ -129,6 +132,9 @@
         <Class IRI="http://webprotege.stanford.edu/RC2htoxlf9exX0X5gOt3hJ0"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RC6iRcKHy9Wx0MrpMHnVmBE"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://webprotege.stanford.edu/RC7Ph4B3MdUruUijWnFW38k"/>
     </Declaration>
     <Declaration>
@@ -142,6 +148,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://webprotege.stanford.edu/RCNimXVCHkyTTApvG8TOtii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCcA9YRLBPaQCEioAnnluhC"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://webprotege.stanford.edu/RCzvqOMGgVH4o5Tnlq4xj1r"/>
@@ -201,6 +210,9 @@
         <Class IRI="http://webprotege.stanford.edu/RkstZzLW9YcRgmnt22jadR"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RlhYgOdVYB2MHZeXOokYZu"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://webprotege.stanford.edu/RlsL7DVHupwhc9d2Zc3MKA"/>
     </Declaration>
     <Declaration>
@@ -226,6 +238,9 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/rights"/>
@@ -398,6 +413,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N"/>
+        <Class IRI="http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/R9A11RmuVruAOerXKyySiWr"/>
         <Class IRI="http://webprotege.stanford.edu/ROa08J3jBXVlO6zspDOAhF"/>
     </SubClassOf>
@@ -512,6 +531,10 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RC6iRcKHy9Wx0MrpMHnVmBE"/>
+        <Class IRI="http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RC7Ph4B3MdUruUijWnFW38k"/>
         <Class IRI="http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl"/>
     </SubClassOf>
@@ -544,6 +567,10 @@
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RCNimXVCHkyTTApvG8TOtii"/>
         <Class IRI="http://webprotege.stanford.edu/RBtl62fEx4ULD5ucsQ0ukyL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCcA9YRLBPaQCEioAnnluhC"/>
+        <Class IRI="http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RCzvqOMGgVH4o5Tnlq4xj1r"/>
@@ -648,6 +675,10 @@
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RkstZzLW9YcRgmnt22jadR"/>
         <Class IRI="http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RlhYgOdVYB2MHZeXOokYZu"/>
+        <Class IRI="http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://webprotege.stanford.edu/RlsL7DVHupwhc9d2Zc3MKA"/>
@@ -1021,6 +1052,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N</IRI>
+        <Literal xml:lang="en">SocioDigital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/R9A11RmuVruAOerXKyySiWr</IRI>
         <Literal xml:lang="en">CellingProjector</Literal>
     </AnnotationAssertion>
@@ -1325,6 +1361,21 @@
         <Literal xml:lang="en">Head-Mounted-Display</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://webprotege.stanford.edu/RC6iRcKHy9Wx0MrpMHnVmBE</IRI>
+        <Literal xml:lang="en">study of living and non-living components of ecosystems and their interactions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC6iRcKHy9Wx0MrpMHnVmBE</IRI>
+        <Literal xml:lang="en">Ecosystem and ecology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#definition"/>
+        <IRI>http://webprotege.stanford.edu/RC6iRcKHy9Wx0MrpMHnVmBE</IRI>
+        <Literal xml:lang="en">study of living and non-living components of ecosystems and their interactions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RC7Ph4B3MdUruUijWnFW38k</IRI>
         <Literal xml:lang="en">VirtualVehicle</Literal>
@@ -1398,6 +1449,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RCNimXVCHkyTTApvG8TOtii</IRI>
         <Literal xml:lang="en">Intimate/Simulation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCcA9YRLBPaQCEioAnnluhC</IRI>
+        <Literal xml:lang="en">Connections and networks</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
@@ -1698,6 +1754,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://webprotege.stanford.edu/RkstZzLW9YcRgmnt22jadR</IRI>
         <Literal xml:lang="en">FlyingDrone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RlhYgOdVYB2MHZeXOokYZu</IRI>
+        <Literal xml:lang="en">human relations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://webprotege.stanford.edu/RlhYgOdVYB2MHZeXOokYZu</IRI>
+        <Literal xml:lang="pt-br">Relações Humanas</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
