@@ -6,7 +6,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     <owl:Ontology rdf:about="urn:webprotege:ontology:e011713a-f22a-4d6c-abcb-a8fecca431ae"/>
     
 
@@ -37,6 +38,12 @@
     <!-- http://purl.org/dc/elements/1.1/title -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
     
 
 
@@ -168,7 +175,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R70NoVr7dNJ1ACcCl9kM62r">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl"/>
-        <rdfs:label xml:lang="en">Pyroeletric Infrared</rdfs:label>
+        <rdfs:label xml:lang="en">Pyroeletric-Infrared</rdfs:label>
     </owl:Class>
     
 
@@ -387,6 +394,15 @@
     
 
 
+    <!-- http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3"/>
+        <rdfs:label xml:lang="en">SocioDigital</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://webprotege.stanford.edu/R9A11RmuVruAOerXKyySiWr -->
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9A11RmuVruAOerXKyySiWr">
@@ -400,7 +416,7 @@
 
     <owl:Class rdf:about="http://webprotege.stanford.edu/R9BRJoWJwmMwVIsyl3z604">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9CqtxgTdgZgt4xQzA681I3"/>
-        <rdfs:label xml:lang="en">Plasma_Fairies</rdfs:label>
+        <rdfs:label xml:lang="en">Plasma-Fairies</rdfs:label>
     </owl:Class>
     
 
@@ -628,7 +644,18 @@
                 <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBf22CZUB0VNvMk0nboW3AB"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">Head-Mounted_Display</rdfs:label>
+        <rdfs:label xml:lang="en">Head-Mounted-Display</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6iRcKHy9Wx0MrpMHnVmBE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC6iRcKHy9Wx0MrpMHnVmBE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N"/>
+        <dc:description xml:lang="en">study of living and non-living components of ecosystems and their interactions</dc:description>
+        <rdfs:label xml:lang="en">Ecosystem and ecology</rdfs:label>
+        <skos:definition xml:lang="en">study of living and non-living components of ecosystems and their interactions</skos:definition>
     </owl:Class>
     
 
@@ -696,6 +723,15 @@
         <dc:description xml:lang="en">In the context of the metaverse, it refers to the ability to simulate and recreate highly personal and intimate experiences within the virtual environment.</dc:description>
         <dc:description xml:lang="pt-br">no contexto do metaverso refere-se à capacidade de simular e recriar experiências altamente pessoais e íntimas dentro do ambiente virtual.</dc:description>
         <rdfs:label xml:lang="en">Intimate/Simulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCcA9YRLBPaQCEioAnnluhC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCcA9YRLBPaQCEioAnnluhC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N"/>
+        <rdfs:label xml:lang="en">Connections and networks</rdfs:label>
     </owl:Class>
     
 
@@ -932,6 +968,16 @@
     <owl:Class rdf:about="http://webprotege.stanford.edu/RkstZzLW9YcRgmnt22jadR">
         <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7iJdqLFEd5P2Y7QHMSRSZl"/>
         <rdfs:label xml:lang="en">FlyingDrone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlhYgOdVYB2MHZeXOokYZu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RlhYgOdVYB2MHZeXOokYZu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96T3YaIQZQvw6A0SYrzN5N"/>
+        <rdfs:label xml:lang="en">human relations</rdfs:label>
+        <rdfs:seeAlso xml:lang="pt-br">Relações Humanas</rdfs:seeAlso>
     </owl:Class>
     
 
